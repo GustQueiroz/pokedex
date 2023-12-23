@@ -20,6 +20,30 @@ body {
         border-radius: 1rem;
     }
   }
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    width: 10rem;
+    height: 2rem;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.pagination button:hover {
+    background-color: #7883d3;
+}
 
 
 
